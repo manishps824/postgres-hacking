@@ -9,10 +9,10 @@ git clone https://github.com/postgres/postgres.git
 cd postgres/
 git checkout REL_15_STABLE
 sudo apt-get update 
-make --version
 perl -V
 openssl version
 sudo apt install make 
+make --version
 sudo apt install tar
 sudo apt install zip
 sudo apt install unzip
