@@ -3,7 +3,8 @@ instance_port=$2
 replica_user=replica_user
 archive_dir=/pgsql/archive
 data_dir=/pgsql/data/$instance_data_dir/
-template_dir=/home/postgres/code/templates
+cur_dir=`pwd`
+template_dir=$cur_dir/templates
 myname=$(basename "$0")
 
 if [ $# -eq 0 ]; then
